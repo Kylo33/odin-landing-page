@@ -18,14 +18,17 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 12px;
-    width: 1200px;
+    padding: 16px 12px;
+    max-width: 1200px;
+    width: 100%;
 }
 
 .header > .links {
     display: flex;
     gap: 12px;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .header > .links a {
@@ -46,7 +49,8 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 64px 0;
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
 }
 
 .hero > .info {
@@ -108,14 +112,14 @@ body {
 .graphic-info-panel > .cards {
     display: flex;
     justify-content: center;
-    width: 1200px;
     flex-wrap: wrap;
     gap: 48px;
+    max-width: 1200px;
+    width: 100%;
 }
 
 .graphic-info-panel > .cards > .card {
     width: 150px;
-    height: 150px;
     text-align: center;
 }
 

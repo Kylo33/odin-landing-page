@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #1f2937;
+    background-color: #1F2937;
 }
 
 /* Navigation Bar */
@@ -88,4 +88,41 @@ body {
     height: 200px;
     width: 500px;
     flex: none;
+}
+
+/* Graphic info panel */
+
+.graphic-info-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0;
+}
+
+.graphic-info-panel > h1 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.graphic-info-panel > .cards {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.graphic-info-panel > .cards > .card {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.graphic-info-panel .graphic {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+    box-sizing: border-box;
 }

@@ -14,7 +14,7 @@ body {
 
 /* Navigation Bar */
 
-.header {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,7 +23,7 @@ body {
     width: 100%;
 }
 
-.header > .links {
+header > .links {
     display: flex;
     gap: 12px;
     list-style: none;
@@ -31,13 +31,13 @@ body {
     padding: 0;
 }
 
-.header > .links a {
+header > .links a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.header > .logo {
+header > .logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;

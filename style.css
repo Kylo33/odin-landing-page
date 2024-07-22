@@ -211,3 +211,13 @@ body {
     margin: 0;
     font-weight: bold;
 }
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+}
